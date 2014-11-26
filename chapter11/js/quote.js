@@ -36,7 +36,7 @@ window.onload = function() {
 	}; // End of onreadystatechange function.
 	
 	// Fetch the initial data:
-	ajax.open('GET', 'resources/quote.php', true);
+	ajax.open('GET', 'resources/quote.json', true);
 	ajax.send(null);
 	
 	// Use a timer to fetch the data again:
