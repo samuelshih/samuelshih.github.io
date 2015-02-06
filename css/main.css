@@ -10,10 +10,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+html, body {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    height: 100%;
 }
 
 /*
@@ -92,10 +93,19 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Section Styles
    ========================================================================== */
+#intro{
+    height: 100%;
+    background-color: #f6f6f6;
+    text-align: center;
+    padding-top: 300px;
+}
 
-
+#about{
+    text-align: center;
+    height: 300px;
+}
 
 
 
