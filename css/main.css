@@ -20,6 +20,19 @@
 	list-style-type: none;
 	display: inline;
 	color: #808080;
-	font-size: 2em;
+	font-size: 1.7em;
 	padding: 0 1px 0 1px;
+}
+
+/* ==========================================================================
+   About Me
+   ========================================================================== */
+.about-me{
+	font-family: 'Open Sans', sans-serif;
+}
+#profile{
+	background-image: url('../images/profile_pic.jpg');
+	width: 100px;
+	height: 100px;
+	display: inline-block;
 }
