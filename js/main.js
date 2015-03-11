@@ -1,4 +1,6 @@
 $(document).ready(function(){
 
-	$('#slides').superslides()
+	$('#slides').superslides({
+		// animation: 'fade'
+	});
 });
