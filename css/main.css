@@ -1,12 +1,19 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
 
+/*html,body{
+  height: 100%;
+  padding: 0;
+}*/
+
 /* ==========================================================================
    Home
    ========================================================================== */
-.home{
+.home-container{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	margin-top: 22em;
+	padding-top: 22%;
+  height: 100vh;
+  background-color: #EEE
 }
 #name-home{
 	font-size: 60px;
@@ -27,8 +34,9 @@
 /* ==========================================================================
    About Me
    ========================================================================== */
-.about-me{
+.about-container{
 	font-family: 'Open Sans', sans-serif;
+	text-align: center;
 }
 #profile{
 	background-image: url('../images/profile_pic.jpg');
