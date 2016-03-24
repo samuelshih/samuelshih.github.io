@@ -36,6 +36,7 @@
    ========================================================================== */
 .about-container{
 	font-family: 'Open Sans', sans-serif;
+	height: 50vh;
 	text-align: center;
 }
 #profile{
@@ -44,11 +45,17 @@
 	height: 100px;
 	display: inline-block;
 }
+#profile-pic{
+	border-radius: 50%;
+}
+#about-info{
+	padding-top: 10%;
+}
 
 /* ==========================================================================
    Contact
    ========================================================================== */
-  
+
 #contact{
 	margin-top: 22em;
 	text-align: center;
