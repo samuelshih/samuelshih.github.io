@@ -44,6 +44,9 @@
 	font-size: 1.7em;
 	padding: 0 1px 0 1px;
 }
+.social-icons a{
+	text-decoration: none;
+}
 
 /* ==========================================================================
    About Me
@@ -52,6 +55,7 @@
 	font-family: 'Open Sans', sans-serif;
 	height: 50vh;
 	text-align: center;
+	padding-top: 20px;
 }
 #profile{
 	background-image: url('../images/profile_pic.jpg');
@@ -65,13 +69,16 @@
 #about-info{
 	padding-top: 10%;
 }
+#about-info a{
+	text-decoration: none;
+}
 
 /* ==========================================================================
    Experience
  ========================================================================== */
 .experience-container{
 	height: 80vh;
-	background-color: #EEE
+	background-color: #EEE;
 }
 #company-logo{
 	width: 250px;
@@ -82,10 +89,12 @@
 	padding: 15px;
 	text-align: center;
 }
-#company-name{
+#company-info{
 	padding-left: 30px;
 }
-
+#company-info a{
+	text-decoration: none;
+}
 
 
 /* ==========================================================================
