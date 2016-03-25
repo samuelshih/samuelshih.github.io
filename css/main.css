@@ -13,7 +13,32 @@
 	font-family: 'Open Sans', sans-serif;
 	padding-top: 22%;
   height: 100vh;
-  background-color: #EEE
+
+}
+.home-container:before {
+    background: url("../images/slide_background.jpg") repeat scroll 0 0 transparent;
+    opacity: 0.75;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+		filter: blur(0.3px);
+		-webkit-filter: blur(0.3px);
+}
+.home-content{
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 3px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	left: 0;
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	right: 0;
+	z-index: 1;
+	padding: 0 10px;
 }
 #name-home{
 	font-size: 60px;
@@ -51,6 +76,28 @@
 #about-info{
 	padding-top: 10%;
 }
+
+/* ==========================================================================
+   Experience
+ ========================================================================== */
+.experience-container{
+	height: 80vh;
+	background-color: #EEE
+}
+#company-logo{
+	width: 250px;
+	height: 250px;
+}
+#experience-header{
+	font-family: 'Open Sans', sans-serif;
+	padding: 15px;
+	text-align: center;
+}
+#company-name{
+	padding-left: 30px;
+}
+
+
 
 /* ==========================================================================
    Contact
