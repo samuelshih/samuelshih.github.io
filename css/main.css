@@ -53,7 +53,7 @@
    ========================================================================== */
 .about-container{
 	font-family: 'Open Sans', sans-serif;
-	height: 50vh;
+	margin-bottom: 100px;
 	text-align: center;
 	padding-top: 20px;
 }
@@ -78,7 +78,7 @@
    Experience
  ========================================================================== */
 .experience-container{
-	height: 95vh;
+	/*margin-bottom: 100px;*/
 	background-color: #EEE;
 }
 #company-logo{
