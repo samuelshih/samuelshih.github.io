@@ -73,6 +73,10 @@
 #about-info a{
 	text-decoration: none;
 }
+#email {
+	font-size: 15px;
+	text-decoration: none;
+}
 
 /* ==========================================================================
    Experience
