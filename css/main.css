@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
+
+/*html,body{
+  height: 100%;
+  padding: 0;
+}*/
+
+/* ==========================================================================
+   Home
+   ========================================================================== */
+.home-container{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 22%;
+  height: 100vh;
+}
+.home-content{
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 3px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+	left: 0;
+	position: absolute;
+	margin-left: 10px;
+	margin-right: 10px;
+	right: 0;
+	z-index: 1;
+	padding: 0 10px;
+}
+#name-home{
+	font-size: 60px;
+	font-weight: 800;
+}
+#name{
+	font-weight: 540;
+	color: #808080;
+}
+.fa:hover{
+	font-weight: bold;
+}
+.social-icons li, i{
+	list-style-type: none;
+	display: inline;
+	color: #808080;
+	font-size: 2.0em;
+	padding: 0 1px 0 1px;
+}
+.social-icons a{
+	text-decoration: none;
+}
+
+/* ==========================================================================
+   About Me
+   ========================================================================== */
+.about-container{
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 100px;
+	text-align: center;
+	padding-top: 20px;
+}
+#profile{
+	background-image: url('../images/profile_pic.jpg');
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+}
+#profile-pic{
+	border-radius: 50%;
+}
+#about-info{
+	padding-top: 6%;
+	font-size: 17px;
+}
+#about-info a{
+	text-decoration: none;
+}
+#email {
+	font-size: 15px;
+	text-decoration: none;
+}
+
+/* ==========================================================================
+   Experience
+ ========================================================================== */
+.experience-container{
+	/*margin-bottom: 100px;*/
+	background-color: #EEE;
+}
+#company-logo{
+	width: 250px;
+	height: 250px;
+}
+#experience-header{
+	font-family: 'Open Sans', sans-serif;
+	padding: 6%;
+	text-align: center;
+}
+#company-info{
+	padding-left: 30px;
+}
+#company-info a{
+	text-decoration: none;
+}
+#resume{
+	padding: 10px;
+	text-align: center;
+	border-radius: 7px;
+	border: 2px solid #808080;
+	width: 140px;
+	height: 50px;
+	text-decoration: none;
+	font-size: 20px;
+	display: inline-block
+}
+
+/* ==========================================================================
+   Contact
+   ========================================================================== */
+
+#contact{
+	margin-top: 22em;
+	text-align: center;
+}
