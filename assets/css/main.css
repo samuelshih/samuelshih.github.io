@@ -2474,6 +2474,11 @@
 			display: block;
 		}
 
+		.image.zero {
+			width: 70%;
+			display: block;
+		}
+
 		.image.left, .image.right {
 			width: 40%;
 			max-width: 10rem;
